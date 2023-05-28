@@ -1,4 +1,4 @@
-{ "homepage" : " http://Richmond08.io/activity_1_react",
+{"homepage" : " http://Richmond08.io/activity_1_react",
 
   "name": "richmond",
   "version": "0.1.0",
@@ -47,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
