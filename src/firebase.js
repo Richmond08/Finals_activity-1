@@ -1,23 +1,14 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
-import { getStorage } from "firebase/storage";
-
+import * as firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_KEY,
-  authDomain: "rich-cc0d6.firebaseapp.com",
-  projectId: "rich-cc0d6",
-  storageBucket: "rich-cc0d6.appspot.com",
-  messagingSenderId: "582167277473",
-  appId: "1:582167277473:web:bd744d1c68eaf90828e5e0",
+  apiKey: "AIzaSyCmG9pvpFyVRXr8b4YuPiZ8zhK-fwrtjPc",
+  authDomain: "react-crud-bff58.firebaseapp.com",
+  databaseURL: "https://react-crud-bff58-default-rtdb.firebaseio.com",
+  projectId: "react-crud-bff58",
+  storageBucket: "react-crud-bff58.appspot.com",
+  messagingSenderId: "1094790876573",
+  appId: "1:1094790876573:web:56fd8ab575c1ac9a373374"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
-export const auth = getAuth();
-export const storage = getStorage(app);
-
-
-
- 
